@@ -32,8 +32,9 @@
 }
 
 .menu .menu_box .menu_card {
-    width: 280px;
-    height: 100%;
+    width: 100%;
+    max-width: 280px;
+    height: 400px;
     padding-top: 10px;
     margin-bottom: 30px;
     border-radius: 15px;
@@ -50,6 +51,8 @@
     height: 200px;
     margin: 0 auto;
     overflow: hidden;
+      border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .menu .menu_box .menu_card .menu_img img {
@@ -111,7 +114,7 @@
 .menu .menu_box .menu_card .menu_info .menu_btn:hover {
     box-shadow: 0 0 5px maroon,
                 0 0 25px maroon,
-                0 0 50px #f0f9f0,
+                0 0 50px #f0f9f0,   
                 0 0 75px #f0f9f0,
                 0 0 100px aliceblue;  
 }

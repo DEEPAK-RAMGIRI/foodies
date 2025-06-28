@@ -3,8 +3,7 @@ import './About.css'
 
 export default function About() {
   return (
-    <div>
-      <section className="about" id="about">
+    <div className="about" id="about">
   <div className="about-us">
     <div className="about-text">
       <h1>
@@ -35,7 +34,6 @@ export default function About() {
       <img src="./images/cer.webp" alt="Our certifications" />
     </div>
   </div>
-</section>
 
     </div>
   )

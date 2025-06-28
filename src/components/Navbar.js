@@ -10,7 +10,7 @@ export default function Navbar() {
       <nav>
   <div>
     <a href="#Chef" className="logo">
-      <img src="/images/chef.png" alt="chef pic" />
+      <img src="/images/chef.webp" alt="chef pic" />
     </a>
   </div>
   <ul>

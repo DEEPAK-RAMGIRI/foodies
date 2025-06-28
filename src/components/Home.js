@@ -27,7 +27,7 @@
         <Navbar />
       <div className="container" id="Home" >
       <div className="pics">
-          <img src="/images/food1.png" alt="Delicious Food"  />
+          <img src="/images/food1.webp" alt="Delicious Food"  />
       </div>
 
 
