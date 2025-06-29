@@ -1,7 +1,7 @@
 import React from 'react'
 import './Menu.css'
 
-export default function Menu() {
+export default function Menu(props) {
   const menuItems = [
     { name: "Ratatouile", price: 800, image: "/images/f1.webp", stars: 5 },
     { name: "Lobster Bisque", price: 560, image: "/images/f2.webp", stars: 4.5 },
@@ -48,6 +48,7 @@ export default function Menu() {
                   className="menu_btn"
                   data-item={item.name}
                   data-price={item.price}
+                  onClick = {() => props.handleCart(item.name, item.price)}
                 >
                   ADD TO CART
                 </button>

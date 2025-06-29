@@ -4,7 +4,13 @@ import './Navbar.css'
 import '../styles/global.css';
 
 
-export default function Navbar() {
+export default function Navbar(props) {
+  const handleLength = () =>{
+    if (props.cart && props.cart.length) {
+      return props.cart.length;
+    }
+    return 0;
+  }
   return (
     <div>
       <nav>
@@ -34,13 +40,14 @@ export default function Navbar() {
         <button
   className="btn btn-primary position-relative border-0 bg-transparent p-0"
   style={{ boxShadow: "none", lineHeight: 0 }}
+  // on onClick={()=>}
 >
   <FaShoppingCart size={20} color="black" style={{ verticalAlign: "middle" }} />
   <span
     className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
     style={{ fontSize: "10px", padding: "4px 6px" }}
   >
-    0+
+    {handleLength()}
   </span>
 </button>
 

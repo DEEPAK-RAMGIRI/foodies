@@ -1,6 +1,6 @@
   import Typed from 'typed.js';
   import React, { useEffect } from 'react';
-  import Navbar from './Navbar';
+
   import '../styles/global.css';
   import './Home.css';
 
@@ -24,7 +24,6 @@
   }, []);
     return (
       <>
-        <Navbar />
       <div className="container" id="Home" >
       <div className="pics">
           <img src="/images/food1.webp" alt="Delicious Food"  />
