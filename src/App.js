@@ -3,6 +3,7 @@ import Menu from "./components/Menu";
 import About from "./components/About";
 import Review from "./components/Review";
 import './styles/global.css';
+import Order from "./components/Order";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Menu />
     <About />
     <Review />
+    <Order />
 
     </>
   );
