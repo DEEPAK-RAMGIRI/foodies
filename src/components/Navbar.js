@@ -11,6 +11,22 @@ export default function Navbar(props) {
     }
     return 0;
   }
+
+  // const newWindow = (url) => {
+  //   const width = 700;
+  //   const height = 800;
+
+  //   const left = (window.screen.width / 2) - (width / 2);
+  //   const top = (window.screen.height / 2) - (height / 2);
+
+  //   const popup = window.open(
+  //     url,
+  //     '_blank',
+  //     `width=${width},height=${height},left=${left},top=${top},noopener,noreferrer`
+  // );
+
+  // if (popup) popup.opener = null;
+  // };
   return (
     <div>
       <nav>
@@ -40,7 +56,7 @@ export default function Navbar(props) {
         <button
   className="btn btn-primary position-relative border-0 bg-transparent p-0"
   style={{ boxShadow: "none", lineHeight: 0 }}
-  // on onClick={()=>}
+  // onClick={() => newWindow('https://www.google.com')}
 >
   <FaShoppingCart size={20} color="black" style={{ verticalAlign: "middle" }} />
   <span

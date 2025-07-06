@@ -4,6 +4,7 @@ import Menu from "./components/Menu";
 import About from "./components/About";
 import Review from "./components/Review";
 import Order from "./components/Order";
+import Chatbot from "./components/chatbot";
 import './styles/global.css';
 import React, { useState } from 'react';
 
@@ -15,15 +16,15 @@ function App() {
     alert(`${item} has been added to your cart.`);
   };
 
-  console.log("Cart:", cart);
   return (
     <>
-    <Navbar cart={cart} setCart={setCart} />
-    <Home />
-    <Menu handleCart={handleCart} />
+    <Navbar cart={cart} />
+    <Home/>
+    <Menu handleCart={handleCart}/>
     <About />
     <Review />
-    <Order cart={cart} setCart={setCart} />
+    <Order cart ={cart} setCart= {setCart}/>
+    <Chatbot /> 
 
     </>
   );
