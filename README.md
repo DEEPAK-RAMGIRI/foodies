@@ -28,6 +28,9 @@
 
 ```plaintext
 foodies/
+├── Backend/
+│   ├── database.py
+│   └── server.py
 ├── public/
 │   └── images/              # Static assets (e.g., customer photos)
 ├── src/
