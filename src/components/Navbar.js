@@ -32,7 +32,7 @@ export default function Navbar(props) {
       <nav>
   <div>
     <a href="#Chef" className="logo">
-      <img src="/images/chef.webp" alt="chef pic" />
+      <img src={`${process.env.PUBLIC_URL}/images/chef.webp`} alt="chef pic" />
     </a>
   </div>
   <ul>

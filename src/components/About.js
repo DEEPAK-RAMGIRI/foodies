@@ -31,7 +31,8 @@ export default function About() {
       </a>
     </div>
     <div className="about-img">
-      <img src="./images/cer.webp" alt="Our certifications" />
+      
+      <img src= {`${process.env.PUBLIC_URL}/images/cer.webp`} alt="Our certifications" />
     </div>
   </div>
 

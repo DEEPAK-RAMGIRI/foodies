@@ -1,5 +1,5 @@
-import React from 'react'
-import './Menu.css'
+import React from 'react';
+import './Menu.css';
 
 export default function Menu(props) {
   const menuItems = [
@@ -37,7 +37,7 @@ export default function Menu(props) {
         {menuItems.map((item, index) => (
           <div className="menu_card" key={index}>
             <div className="menu_img">
-              <img src={item.image} alt={item.name} />
+              <img src={`${process.env.PUBLIC_URL}${item.image}`} alt={item.name} />
             </div>
             <div className="menu_info">
               <h2>{item.name}</h2>
@@ -48,7 +48,7 @@ export default function Menu(props) {
                   className="menu_btn"
                   data-item={item.name}
                   data-price={item.price}
-                  onClick = {() => props.handleCart(item.name, item.price)}
+                  onClick={() => props.handleCart(item.name, item.price)}
                 >
                   ADD TO CART
                 </button>

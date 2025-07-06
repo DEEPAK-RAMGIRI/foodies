@@ -26,7 +26,7 @@
       <>
       <div className="container" id="Home" >
       <div className="pics">
-          <img src="/images/food1.webp" alt="Delicious Food"  />
+          <img src={`${process.env.PUBLIC_URL}/images/food1.webp`} alt="Delicious Food"  />
       </div>
 
 
