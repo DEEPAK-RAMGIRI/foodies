@@ -25,13 +25,15 @@
 
 ---
 
-## 🧩 Folder Structure
+## 📂 Folder Structure
+
+```plaintext
 foodies/
 ├── public/
-│ └── images/ # Static assets (e.g., customer photos)
+│   └── images/              # Static assets (e.g., customer photos)
 ├── src/
-│ ├── components/ # React components (e.g., Review, Navbar, Menu, Home,Chat Bot)
-│ └── App.js # Main React component 
-├── package.json # Project metadata and dependencies
-└── README.md # Project documentation
+│   ├── components/          # React components (e.g., Review, Navbar, Menu, Home, Chatbot)
+│   └── App.js               # Main React component
+├── package.json             # Project metadata and dependencies
+└── README.md                # Project documentation
 
