@@ -3,18 +3,18 @@ import './Menu.css';
 
 export default function Menu(props) {
   const menuItems = [
-    { name: "Ratatouile", price: 800, image: "/images/f1.webp", stars: 5 },
-    { name: "Lobster Bisque", price: 560, image: "/images/f2.webp", stars: 4.5 },
-    { name: "Crêpes", price: 830, image: "/images/f3.webp", stars: 5 },
-    { name: "Palmiers", price: 499, image: "/images/f4.webp", stars: 4.5 },
-    { name: "Upma", price: 150, image: "/images/f5.webp", stars: 4.5 },
-    { name: "Biryani", price: 750, image: "/images/f6.webp", stars: 4.5 },
-    { name: "Gulab Jamun", price: 1000, image: "/images/f7.webp", stars: 5 },
-    { name: "Palak Panner", price: 560, image: "/images/f8.webp", stars: 5 },
-    { name: "Onigiri", price: 700, image: "/images/f9.webp", stars: 4.5 },
-    { name: "Tonkatsu", price: 700, image: "/images/f10.webp", stars: 4.5 },
-    { name: "Ramen", price: 500, image: "/images/f11.webp", stars: 5 },
-    { name: "Udon", price: 580, image: "/images/f12.webp", stars: 5 },
+    { name: "Ratatouile", price: 800, image: "./images/f1.webp", stars: 5 },
+    { name: "Lobster Bisque", price: 560, image: "./images/f2.webp", stars: 4.5 },
+    { name: "Crêpes", price: 830, image: "./images/f3.webp", stars: 5 },
+    { name: "Palmiers", price: 499, image: "./images/f4.webp", stars: 4.5 },
+    { name: "Upma", price: 150, image: "./images/f5.webp", stars: 4.5 },
+    { name: "Biryani", price: 750, image: "./images/f6.webp", stars: 4.5 },
+    { name: "Gulab Jamun", price: 1000, image: "./images/f7.webp", stars: 5 },
+    { name: "Palak Panner", price: 560, image: "./images/f8.webp", stars: 5 },
+    { name: "Onigiri", price: 700, image: "./images/f9.webp", stars: 4.5 },
+    { name: "Tonkatsu", price: 700, image: "./images/f10.webp", stars: 4.5 },
+    { name: "Ramen", price: 500, image: "./images/f11.webp", stars: 5 },
+    { name: "Udon", price: 580, image: "./images/f12.webp", stars: 5 },
   ];
 
   const renderStars = (count) => {
@@ -37,7 +37,7 @@ export default function Menu(props) {
         {menuItems.map((item, index) => (
           <div className="menu_card" key={index}>
             <div className="menu_img">
-              <img src={`${process.env.PUBLIC_URL}${item.image}`} alt={item.name} />
+              <img src={item.image} alt={item.name} />
             </div>
             <div className="menu_info">
               <h2>{item.name}</h2>

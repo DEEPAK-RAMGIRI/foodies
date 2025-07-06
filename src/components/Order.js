@@ -42,7 +42,7 @@
         <h1>ORDER <span className="color">NOW</span></h1>
         <div className="Baatha">
           <div className="order_img">
-            <img src={`${process.env.PUBLIC_URL}/images/d.webp`} alt="food delivery" />
+            <img src='./images/d.webp' alt="food delivery" />
           </div>
           <form onSubmit={handleSubmit}>
             {inputFields.map((input, index) => (
