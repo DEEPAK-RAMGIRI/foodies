@@ -10,7 +10,8 @@
 - **npm** – Dependency management  
 - **Vercel** – Deployment  
 - **HTML/CSS** – UI and responsiveness  
-- **GitHub** – Version control and source hosting  
+- **GitHub** – Version control and source hosting
+- **MYSQL** -- Backend  
 
 ---
 
@@ -30,7 +31,8 @@
 foodies/
 ├── Backend/
 │   ├── database.py
-│   └── server.py
+│   ├── server.py
+│   └── Hotel.sql
 ├── public/
 │   └── images/              # Static assets (e.g., customer photos)
 ├── src/
