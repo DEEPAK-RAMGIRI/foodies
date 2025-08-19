@@ -40,4 +40,4 @@ foodies/
 │   └── App.js               # Main React component
 ├── package.json             # Project metadata and dependencies
 └── README.md                # Project documentation
-
+```
