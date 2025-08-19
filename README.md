@@ -3,7 +3,7 @@
 - 
 👉 [Foodies](https://foodies-psi-two.vercel.app)
 
-
+![Foodies ScreenShot](https://github.com/DEEPAK-RAMGIRI/foodies/blob/main/Foodies.png)
 
 ### 🛠️ Tech Stack
 
