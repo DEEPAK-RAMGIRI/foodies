@@ -11,7 +11,7 @@
 - **Dialogflow** – Chatbot integration  
 - **npm** – Dependency management  
 - **Vercel** – Deployment  
-- **HTML/CSS** – UI and responsiveness  
+- **CSS** – UI and responsiveness  
 - **GitHub** – Version control and source hosting
 - **MYSQL** -- Backend  
 
