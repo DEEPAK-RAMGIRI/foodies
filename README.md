@@ -1,7 +1,7 @@
 ##  Foodies – Responsive Online Restaurant Interface
 - **Foodies** is a responsive, single-page restaurant website built using **React.js**. It features a modern UI, interactive chatbot integration using **Dialogflow**, and is deployed using **Vercel** for fast and scalable access.
 
-**Live Demo**[Foodies](https://foodies-psi-two.vercel.app)
+**Live Demo** [Foodies](https://foodies-psi-two.vercel.app)
 
 ![Foodies ScreenShot](https://github.com/DEEPAK-RAMGIRI/foodies/blob/main/Foodies.png)
 
