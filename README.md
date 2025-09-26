@@ -5,7 +5,7 @@
 
 ![Foodies ScreenShot](https://github.com/DEEPAK-RAMGIRI/foodies/blob/main/Foodies.png)
 
-### 🛠 Tech Stack
+### Tech Stack
 
 - **React.js** – Frontend Framework  
 - **Dialogflow** – Chatbot integration  
